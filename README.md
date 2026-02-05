@@ -5,46 +5,16 @@
     <img src="assets/robotics_cl.png" width="90%" height="90%">
 </p>
 
-**Vision language models (VLMs)** have emerged as powerful tools for learning unified embedding spaces that integrate vision and language. Inspired by the success of large language models (LLMs), which have demonstrated remarkable reasoning and multi-task capabilities, visual large language models (VLLMs) are gaining significant attention for developing both general-purpose and specialized VLMs.
-
 In this repository, we provide a comprehensive summary of the current literature from an application-oriented perspective. We hope this resource serves as a valuable reference for the VLLM research community.
 
 **If you are interested in this project, you can contribute to this repo by pulling requests 😊😊😊**
 
 **If you think our paper is helpful for your research, you can cite through this bib tex entry!**
-```
-@article{li2025visual,
-  title={Visual Large Language Models for Generalized and Specialized Applications},
-  author={Li, Yifan and Lai, Zhixin and Bao, Wentao and Tan, Zhen and Dao, Anh and Sui, Kewei and Shen, Jiayi and Liu, Dong and Liu, Huan and Kong, Yu},
-  journal={arXiv preprint arXiv:2501.02765},
-  year={2025}
-}
-```
 
 ## 📢 News
 
 🚀 **What's New in This Update**:
-- [2025.7.28]: 🔥 Adding five papers on autonomous driving, vision generation and video understanding!
-- [2025.4.25]: 🔥 Adding eleven papers on complex reasoning, face, video understanding and medical!
-- [2025.4.18]: 🔥 Adding three papers on complex reasoning!
-- [2025.4.12]: 🔥 Adding one paper on complex reasoning and one paper on efficiency!
-- [2025.3.20]: 🔥 Adding eleven papers and 1 wonderful repo on complex reasoning!
-- [2025.3.10]: 🔥 Adding three papers on complex reasoning, efficiency and face!
-- [2025.3.6]: 🔥 Adding one paper on complex reasoning!
-- [2025.3.2]: 🔥 Adding two projects on complex reasoning: [R1-V](https://github.com/Deep-Agent/R1-V) and [VLM-R1](https://github.com/om-ai-lab/VLM-R1)!
-- [2025.2.23]: 🔥 Adding one video-to-action paper and one vision-to-text paper!
-- [2025.2.1]: 🔥 Adding four video-to-text papers!
-- [2025.1.22]: 🔥 Adding one video-to-text paper!
-- [2025.1.17]: 🔥 Adding three video-to-text papers, thanks for the contributions from [Enxin](https://github.com/Espere-1119-Song)!
-- [2025.1.14]: 🔥 Adding two complex reasoning papers and one video-to-text paper!
-- [2025.1.13]: 🔥 Adding one VFM survey paper!
-- [2025.1.12]: 🔥 Adding one  efficient MLLM paper!
-- [2025.1.9]: 🔥🔥🔥 Adding one  efficient MLLM survey!
-- [2025.1.7]: 🔥🔥🔥 Our survey paper is released! Please check this [link](https://arxiv.org/pdf/2501.02765) for more information. We add more tool management papers in our paper list.
-- [2025.1.6]: 🔥 We add one OS Agent survey paper in our paper list, and a new category: complex reasoning!
-- [2025.1.4]: 🔥 We updated the general domain and egocentric video papers in our paper list, thanks for the contributions from [Wentao](https://github.com/Cogito2012)!
-- [2025.1.2]: 🔥 We add more interpretation papers to our paper list, thanks for the contributions from [Ruoyu](https://github.com/RuoyuChen10)!
-- [2024.12.15]: 🔥 We release our VLLM application paper list repo!
+- [2026.2.4]: 🔥 We release our Robotics Continual Learning paper list repo!
 
 <!-- <span id="head-content"><font size=5><center><b> :rainbow: Table of Contents </b> </center></font></span> -->
 
