@@ -45,7 +45,6 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 | Paper | CL Technique | Setting | Benchmark | Code | Venue |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| [CRIL](link) [Gao et al., 2021] | Generative replay | Object | Meta-World | [💻](github-link) | IROS'21 |
 | ... | ... | ... | ... | ... | ... |
 
 ### Navigation
@@ -68,7 +67,6 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 | Paper | Application | Setting | Benchmark | Code | Venue |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| [CRIL](link) [Gao et al., 2021] | Manipulation | Object | Meta-World | [💻](github-link) | IROS'21 |
 | ... | ... | ... | ... | ... | ... |
 
 ### Experience Replay
@@ -97,7 +95,6 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 | Paper | Application | CL Technique | Code | Venue |
 | :--- | :--- | :--- | :---: | :---: |
-| [CRIL](link) [Gao et al., 2021] | Manipulation | Generative replay | [💻](github-link) | IROS'21 |
 | ... | ... | ... | ... | ... |
 
 ### LIBERO
@@ -118,27 +115,7 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 | Paper | Application | CL Technique | Benchmark | Code | Venue |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| [CRIL](link) [Gao et al., 2021] | Manipulation | Generative replay | Meta-World | [💻](github-link) | IROS'21 |
 | ... | ... | ... | ... | ... | ... |
-
----
-
-## 📊 Quick Reference
-
-### CL Techniques Overview
-- **Generative Replay**: Uses generative models to replay past experiences
-- **Experience Replay**: Stores and replays actual past experiences from a buffer
-- **Parameter Isolation**: Allocates separate parameters for different tasks
-- **Regularization-Based**: Constrains parameter updates to preserve old knowledge
-
-### Common Benchmarks
-- **Meta-World**: Multi-task manipulation benchmark
-- **LIBERO**: Benchmark for lifelong robot learning
-- **RLBench**: Vision-based manipulation tasks
-- *(Add more as needed)*
-
-### Venues
-CoRL, ICRA, IROS, RSS, NeurIPS, ICLR, ICML, CVPR, etc.
 
 ---
 
