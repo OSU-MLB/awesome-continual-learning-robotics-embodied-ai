@@ -10,32 +10,26 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 ---
 
+## 📢 News & Updates
+
+- **[2026.02.04]**: Initial collection with 50+ papers across manipulation, navigation, and planning
+
+---
+
 ## 📋 Table of Contents
 
-- [How to Use This Repo](#how-to-use-this-repo)
-- [Papers by Application](#papers-by-application)
+- [News & Updates](#-news--updates)
+- [How to Use This Repo](#-how-to-use-this-repo)
+- [Papers by Application](#-papers-by-application)
   - [Manipulation](#manipulation)
   - [Navigation](#navigation)
   - [Planning](#planning)
-- [Papers by CL Technique](#papers-by-cl-technique)
-- [Papers by Benchmark](#papers-by-benchmark)
-- [Papers with Code Available](#papers-with-code-available)
-- [Quick Reference](#quick-reference)
-- [Contributing](#contributing)
 
 ---
 
 ## 🔍 How to Use This Repo
 
 **Browse by application area**: Start with [Manipulation](#manipulation), [Navigation](#navigation), or [Planning](#planning)
-
-**Filter by technique**: Jump to [Papers by CL Technique](#papers-by-cl-technique) to find all papers using Experience Replay, Generative Replay, etc.
-
-**Filter by benchmark**: See [Papers by Benchmark](#papers-by-benchmark) to find papers using Meta-World, LIBERO, RLBench, etc.
-
-**Find papers with code**: Check [Papers with Code Available](#papers-with-code-available)
-
-**Use Ctrl+F / Cmd+F** to search for specific authors, venues, or keywords
 
 ---
 
@@ -61,74 +55,20 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 ---
 
-## 🔧 Papers by CL Technique
-
-### Generative Replay
-
-| Paper | Application | Setting | Benchmark | Code | Venue |
-| :--- | :--- | :--- | :--- | :---: | :---: |
-| ... | ... | ... | ... | ... | ... |
-
-### Experience Replay
-
-| Paper | Application | Setting | Benchmark | Code | Venue |
-| :--- | :--- | :--- | :--- | :---: | :---: |
-| ... | ... | ... | ... | ... | ... |
-
-### Parameter Isolation
-
-| Paper | Application | Setting | Benchmark | Code | Venue |
-| :--- | :--- | :--- | :--- | :---: | :---: |
-| ... | ... | ... | ... | ... | ... |
-
-### Regularization-Based
-
-| Paper | Application | Setting | Benchmark | Code | Venue |
-| :--- | :--- | :--- | :--- | :---: | :---: |
-| ... | ... | ... | ... | ... | ... |
-
----
-
-## 🎯 Papers by Benchmark
-
-### Meta-World
-
-| Paper | Application | CL Technique | Code | Venue |
-| :--- | :--- | :--- | :---: | :---: |
-| ... | ... | ... | ... | ... |
-
-### LIBERO
-
-| Paper | Application | CL Technique | Code | Venue |
-| :--- | :--- | :--- | :---: | :---: |
-| ... | ... | ... | ... | ... |
-
-### RLBench
-
-| Paper | Application | CL Technique | Code | Venue |
-| :--- | :--- | :--- | :---: | :---: |
-| ... | ... | ... | ... | ... |
-
----
-
-## 💻 Papers with Code Available
-
-| Paper | Application | CL Technique | Benchmark | Code | Venue |
-| :--- | :--- | :--- | :--- | :---: | :---: |
-| ... | ... | ... | ... | ... | ... |
-
----
-
 ## 🤝 Contributing
 
 We welcome contributions! To add a paper:
 
 1. Fork this repository
-2. Add the paper to the appropriate section(s) following the existing format
-3. Ensure the paper appears in all relevant views (by application, technique, benchmark)
-4. Submit a pull request
+2. Add the paper to the appropriate application section(s)
+3. Fill in all columns: Paper (with link), CL Technique, Setting, Benchmark, Code (💻 emoji if available), Venue
+4. If a paper uses multiple CL techniques, list them with "+" (e.g., "PEFT + MoE + ER")
+5. Submit a pull request with a brief description
 
-**Format**: `[Paper Title](link) [Author et al., Year] | Technique | Setting | Benchmark | Code | Venue`
+**Format Example**: 
+```
+| [Paper Title](paper-link) [Author et al., Year] | Technique(s) | Setting | Benchmark | [💻](code-link) | Venue |
+```
 
 ---
 
@@ -146,4 +86,4 @@ If you find this collection useful, please consider citing our survey:
 
 ---
 
-**Last Updated**: February 2026 | **Paper Count**: XX
+**Last Updated**: February 2026 | **Paper Count**: XX | **Papers with Code**: XX
