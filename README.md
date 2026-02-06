@@ -33,6 +33,30 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 ---
 
+## 🧭 Legend
+
+### Setting
+
+- 📦 **Object**
+- 🎯 **Goal**
+- 🗺️ **Spatial**
+- 🌍 **Environment**
+
+### CL Technique (Abbreviations)
+
+- **GR** — Generative Replay  
+- **ER** — Experience Replay  
+- **R** — Regularization  
+- **PI** — Parameter Isolation  
+- **PEFT** — Parameter-Efficient Fine-Tuning  
+- **PE** — Parameter Expansion  
+- **ME** — Memory Expansion  
+- **ML** — Meta-Learning  
+- **MoE** — Mixture of Experts  
+- **W** — World Model
+
+---
+
 ## 📚 Papers by Application
 
 ### Manipulation
