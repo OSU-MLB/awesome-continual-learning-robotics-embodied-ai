@@ -1,135 +1,172 @@
-# Awesome Continual Learning in Robotics and Embodied AI
-## 🔥🔥🔥 [A Survey of Continual Learning for Robotics in the Foundation Model Era](https://www.techrxiv.org/doi/full/10.36227/techrxiv.176972367.76460794/v1)
+# Continual Learning for Robotics: Paper Collection
 
 <p align="center">
     <img src="assets/robotics_cl.png" width="90%" height="90%">
 </p>
 
-This repository provides a curated list of papers on **Continual Learning (CL) for Robotics and Embodied AI**.
-It focuses on problem formulations, benchmarks, evaluation protocols, and system-level insights.
+A curated collection of research papers on **Continual Learning (CL) for Robotics and Embodied AI**, organized by application area and searchable by technique, benchmark, and venue.
 
-Contributions via pull requests are welcome.
-
----
-
-## 📢 News
-- [2026.2.4]: Opened our continual learning for robotics list repo
+📄 **Related Survey**: [A Survey of Continual Learning for Robotics in the Foundation Model Era](https://www.techrxiv.org/doi/full/10.36227/techrxiv.176972367.76460794/v1)
 
 ---
 
-## 🌈 Table of Contents
-- [Problem Formulations](#problem-formulations)
-- [Benchmarks and Environments](#benchmarks-and-environments)
-- [Methods](#methods)
-- [Evaluation Protocols and Metrics](#evaluation-protocols-and-metrics)
-- [Applications](#applications)
-- [Challenges and Open Problems](#challenges-and-open-problems)
-- [Related Surveys](#related-surveys)
-- [Contributors](#contributors)
+## 📋 Table of Contents
+
+- [How to Use This Repo](#how-to-use-this-repo)
+- [Papers by Application](#papers-by-application)
+  - [Manipulation](#manipulation)
+  - [Navigation](#navigation)
+  - [Planning](#planning)
+- [Papers by CL Technique](#papers-by-cl-technique)
+- [Papers by Benchmark](#papers-by-benchmark)
+- [Papers with Code Available](#papers-with-code-available)
+- [Quick Reference](#quick-reference)
+- [Contributing](#contributing)
 
 ---
 
-## Problem Formulations
+## 🔍 How to Use This Repo
 
-### Continual Learning Settings
-- Task-Incremental Learning
-- Domain-Incremental Learning
-- Class-Incremental Learning
-- Skill / Goal Incremental Learning
-- Lifelong / Online Learning
+**Browse by application area**: Start with [Manipulation](#manipulation), [Navigation](#navigation), or [Planning](#planning)
 
-| Setting | Description | Notes |
-| :--- | :--- | :--- |
-|  |  |  |
+**Filter by technique**: Jump to [Papers by CL Technique](#papers-by-cl-technique) to find all papers using Experience Replay, Generative Replay, etc.
 
----
+**Filter by benchmark**: See [Papers by Benchmark](#papers-by-benchmark) to find papers using Meta-World, LIBERO, RLBench, etc.
 
-## Benchmarks and Environments
+**Find papers with code**: Check [Papers with Code Available](#papers-with-code-available)
 
-### Simulation Benchmarks
-
-| Benchmark | Domain | CL Setting | Tasks | Notes |
-| :--- | :--- | :--- | :---: | :--- |
-|  |  |  |  |  |
-
-### Real-World Benchmarks
-
-| Benchmark | Robot | Sensors | CL Setting | Notes |
-| :--- | :--- | :--- | :--- | :--- |
-|  |  |  |  |  |
+**Use Ctrl+F / Cmd+F** to search for specific authors, venues, or keywords
 
 ---
 
-## Methods
-
-### Representation-Based Methods
-| Paper | Key Idea | Backbone | Notes |
-| :--- | :--- | :--- | :--- |
-|  |  |  |  |
-
-### Replay / Memory-Based Methods
-| Paper | Replay Type | Memory Size | Notes |
-| :--- | :--- | :---: | :--- |
-|  |  |  |  |
-
-### Parameter Isolation / Modulation
-| Paper | Mechanism | Granularity | Notes |
-| :--- | :--- | :--- | :--- |
-|  |  |  |  |
-
-### Foundation Model–Based CL
-| Paper | FM Type | Adaptation | Notes |
-| :--- | :--- | :--- | :--- |
-|  |  |  |  |
-
----
-
-## Evaluation Protocols and Metrics
-
-| Metric | Definition | Common Benchmarks |
-| :--- | :--- | :--- |
-| Success Rate |  |  |
-| Forward Transfer |  |  |
-| Backward Transfer |  |  |
-| Forgetting |  |  |
-
----
-
-## Applications
+## 📚 Papers by Application
 
 ### Manipulation
-| Task | CL Aspect | Notes |
-| :--- | :--- | :--- |
-|  |  |  |
+
+| Paper | CL Technique | Setting | Benchmark | Code | Venue |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| [CRIL](link) [Gao et al., 2021] | Generative replay | Object | Meta-World | [💻](github-link) | IROS'21 |
+| ... | ... | ... | ... | ... | ... |
 
 ### Navigation
-| Task | CL Aspect | Notes |
-| :--- | :--- | :--- |
-|  |  |  |
 
-### Autonomous Driving / Mobile Robotics
-| Task | CL Aspect | Notes |
-| :--- | :--- | :--- |
-|  |  |  |
+| Paper | CL Technique | Setting | Benchmark | Code | Venue |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| ... | ... | ... | ... | ... | ... |
 
----
+### Planning
 
-## Challenges and Open Problems
-- Long-horizon credit assignment
-- Distribution shift in physical environments
-- Evaluation beyond simulation
-- Safety and stability under continual updates
-- Scaling CL with foundation models
+| Paper | CL Technique | Setting | Benchmark | Code | Venue |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| ... | ... | ... | ... | ... | ... |
 
 ---
 
-## Related Surveys
+## 🔧 Papers by CL Technique
 
-| Title | Venue | Year | Link |
-| :--- | :---: | :---: | :--- |
-|  |  |  |  |
+### Generative Replay
+
+| Paper | Application | Setting | Benchmark | Code | Venue |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| [CRIL](link) [Gao et al., 2021] | Manipulation | Object | Meta-World | [💻](github-link) | IROS'21 |
+| ... | ... | ... | ... | ... | ... |
+
+### Experience Replay
+
+| Paper | Application | Setting | Benchmark | Code | Venue |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| ... | ... | ... | ... | ... | ... |
+
+### Parameter Isolation
+
+| Paper | Application | Setting | Benchmark | Code | Venue |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| ... | ... | ... | ... | ... | ... |
+
+### Regularization-Based
+
+| Paper | Application | Setting | Benchmark | Code | Venue |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| ... | ... | ... | ... | ... | ... |
 
 ---
 
-## Contributors
-- Name (Affiliation)
+## 🎯 Papers by Benchmark
+
+### Meta-World
+
+| Paper | Application | CL Technique | Code | Venue |
+| :--- | :--- | :--- | :---: | :---: |
+| [CRIL](link) [Gao et al., 2021] | Manipulation | Generative replay | [💻](github-link) | IROS'21 |
+| ... | ... | ... | ... | ... |
+
+### LIBERO
+
+| Paper | Application | CL Technique | Code | Venue |
+| :--- | :--- | :--- | :---: | :---: |
+| ... | ... | ... | ... | ... |
+
+### RLBench
+
+| Paper | Application | CL Technique | Code | Venue |
+| :--- | :--- | :--- | :---: | :---: |
+| ... | ... | ... | ... | ... |
+
+---
+
+## 💻 Papers with Code Available
+
+| Paper | Application | CL Technique | Benchmark | Code | Venue |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| [CRIL](link) [Gao et al., 2021] | Manipulation | Generative replay | Meta-World | [💻](github-link) | IROS'21 |
+| ... | ... | ... | ... | ... | ... |
+
+---
+
+## 📊 Quick Reference
+
+### CL Techniques Overview
+- **Generative Replay**: Uses generative models to replay past experiences
+- **Experience Replay**: Stores and replays actual past experiences from a buffer
+- **Parameter Isolation**: Allocates separate parameters for different tasks
+- **Regularization-Based**: Constrains parameter updates to preserve old knowledge
+
+### Common Benchmarks
+- **Meta-World**: Multi-task manipulation benchmark
+- **LIBERO**: Benchmark for lifelong robot learning
+- **RLBench**: Vision-based manipulation tasks
+- *(Add more as needed)*
+
+### Venues
+CoRL, ICRA, IROS, RSS, NeurIPS, ICLR, ICML, CVPR, etc.
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! To add a paper:
+
+1. Fork this repository
+2. Add the paper to the appropriate section(s) following the existing format
+3. Ensure the paper appears in all relevant views (by application, technique, benchmark)
+4. Submit a pull request
+
+**Format**: `[Paper Title](link) [Author et al., Year] | Technique | Setting | Benchmark | Code | Venue`
+
+---
+
+## 📖 Citation
+
+If you find this collection useful, please consider citing our survey:
+```bibtex
+@article{yoursurvey2026,
+  title={A Survey of Continual Learning for Robotics in the Foundation Model Era},
+  author={Your Name et al.},
+  journal={TechRxiv},
+  year={2026}
+}
+```
+
+---
+
+**Last Updated**: February 2026 | **Paper Count**: XX
