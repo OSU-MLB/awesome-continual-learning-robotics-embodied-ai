@@ -12,7 +12,7 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 ## 📢 News & Updates
 
-- **[2026.02.04]**: Initial collection with 50+ papers across manipulation, navigation, and planning
+- **[2026.02.04]**: Initial collection added!
 
 ---
 
@@ -138,4 +138,4 @@ If you find this collection useful, please consider citing our survey:
 
 ---
 
-**Last Updated**: February 2026 | **Paper Count**: XX | **Papers with Code**: XX
+**Last Updated**: February 2026 | **Paper Count**: 31
