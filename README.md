@@ -63,47 +63,47 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 | Paper | CL Technique | Setting | Benchmark | Code | Venue |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| CRIL [Gao et al., 2021] | GR | 📦 Object + 🎯 Goal | Meta-World | [💻](https://github.com/HeegerGao/CRIL) | IROS’21 |
-| HyperCRL [Rusu et al., 2021] | PI | 🎯 Goal + 📦 Object + 🗺️ Spatial | Surreal Robotic Suite, DoorGym | [💻](https://github.com/rvl-lab-utoronto/HyperCRL) | ICRA’21 |
-| HN-PPO [Schöpflin et al., 2022] | R + PI | 📦 Object + 🎯 Goal + 🗺️ Spatial | DoorGym | [💻](https://github.com/phschoepf/cs-bachelor-thesis) | NeurIPS WS’22 |
-| SANER [Wang et al., 2023] | ER + PE | 📦 Object + 🎯 Goal | – | [💻](https://github.com/AGI-Labs/continual_rl) | CoLLAs’23 |
-| CHN [Auddy et al., 2023] | PI | 📦 Object + 🎯 Goal | LASA | [💻](https://github.com/sayantanauddy/clfd) | RAS’23 |
-| CoTASP [Yang et al., 2023] | PEFT + PI | 📦 Object + 🎯 Goal | Continual World | [💻](https://github.com/stevenyangyj/CoTASP) | ICML’23 |
-| SDP [Huo et al., 2024] | MoE + PE | 📦 Object + 🎯 Goal | MimicGen, DexArt, RoboMimic | [💻](https://github.com/AnthonyHuo/SDP) | CoRL’24 |
-| TAIL [Zhang et al., 2024] | PEFT + PE | 📦 Object + 🎯 Goal + 🗺️ Spatial | LIBERO |  | ICLR’24 |
-| CompoNet [Mendez et al., 2024] | PE | 📦 Object + 🎯 Goal | Continual World | [💻](https://github.com/mikelma/componet) | ICML’24 |
-| LOTUS [Xu et al., 2024] | ER + PE | 📦 Object + 🎯 Goal + 🗺️ Spatial | LIBERO | [💻](https://github.com/UT-Austin-RPL/Lotus) | ICRA’24 |
-| ECD [Zhao et al., 2024] | ER + R | 📦 Object + 🎯 Goal | Continual World |  | ICRA’24 |
-| DMPEL [Lei et al., 2024] | PEFT + MoE + ER + PE | 📦 Object + 🎯 Goal + 🗺️ Spatial | LIBERO | [💻](https://github.com/HarryLui98/DMPEL) | ICRA’24 |
-| IsCiL [Lee et al., 2024] | PEFT + PE | 📦 Object + 🎯 Goal | Franka Kitchen, Meta-World | [💻](https://github.com/L2dulgi/IsCiL) | NeurIPS’24 |
-| SPECI [Zhou et al., 2025] | PE | 📦 Object + 🎯 Goal + 🗺️ Spatial | LIBERO | [💻](https://github.com/Triumphant-strain/SPECI) | TCDS’25 |
-| PPL [Li et al., 2025] | PEFT + PE | 📦 Object + 🎯 Goal | LIBERO, MimicGen |  | CVPR’25 |
-| LEGION [Kim et al., 2025] | ME | 📦 Object + 🎯 Goal | – | [💻](https://github.com/legion/legion) | ICRA’25 |
-| LLWM [Zheng et al., 2025] | GR + W + R | 📦 Object + 🎯 Goal | DM Control, Meta-World | [💻](https://github.com/WendongZh/continual_visual_control) | ECML’25 |
-| iManip [Chen et al., 2025] | PEFT + ER + PE | 📦 Object + 🎯 Goal | RLBench |  | ICCV’25 |
-| OA [Liu et al., 2025] | W + R | 📦 Object + 🎯 Goal | ContinualBench | [💻](https://github.com/sail-sg/ContinualBench) | ICML’25 |
-| M2Distill [Wang et al., 2025] | R | 📦 Object + 🎯 Goal + 🗺️ Spatial | LIBERO |  | ICRA’25 |
-| CKA-RL [Zhang et al., 2025] | PE | 📦 Object + 🎯 Goal | LIBERO |  | arXiv’25 |
-| OMLA [Sun et al., 2025] | PEFT + ML | 📦 Object + 🎯 Goal + 🗺️ Spatial | LIBERO |  | arXiv’25 |
-| CLARE [Patel et al., 2026] | PE + PEFT | 📦 Object + 🎯 Goal + 🗺️ Spatial | LIBERO | [💻](https://github.com/utiasDSL/clare) | arXiv’26 |
+| CRIL [Gao et al., 2021] | GR | 📦 + 🎯 | Meta-World | [💻](https://github.com/HeegerGao/CRIL) | IROS'21 |
+| HyperCRL [Rusu et al., 2021] | PI | 🎯 + 📦 + 🗺️ | Surreal Robotic Suite, DoorGym | [💻](https://github.com/rvl-lab-utoronto/HyperCRL) | ICRA'21 |
+| HN-PPO [Schöpflin et al., 2022] | R + PI | 📦 + 🎯 + 🗺️ | DoorGym | [💻](https://github.com/phschoepf/cs-bachelor-thesis) | NeurIPS WS'22 |
+| SANER [Wang et al., 2023] | ER + PE | 📦 + 🎯 | – | [💻](https://github.com/AGI-Labs/continual_rl) | CoLLAs'23 |
+| CHN [Auddy et al., 2023] | PI | 📦 + 🎯 | LASA | [💻](https://github.com/sayantanauddy/clfd) | RAS'23 |
+| CoTASP [Yang et al., 2023] | PEFT + PI | 📦 + 🎯 | Continual World | [💻](https://github.com/stevenyangyj/CoTASP) | ICML'23 |
+| SDP [Huo et al., 2024] | MoE + PE | 📦 + 🎯 | MimicGen, DexArt, RoboMimic | [💻](https://github.com/AnthonyHuo/SDP) | CoRL'24 |
+| TAIL [Zhang et al., 2024] | PEFT + PE | 📦 + 🎯 + 🗺️ | LIBERO |  | ICLR'24 |
+| CompoNet [Mendez et al., 2024] | PE | 📦 + 🎯 | Continual World | [💻](https://github.com/mikelma/componet) | ICML'24 |
+| LOTUS [Xu et al., 2024] | ER + PE | 📦 + 🎯 + 🗺️ | LIBERO | [💻](https://github.com/UT-Austin-RPL/Lotus) | ICRA'24 |
+| ECD [Zhao et al., 2024] | ER + R | 📦 + 🎯 | Continual World |  | ICRA'24 |
+| DMPEL [Lei et al., 2024] | PEFT + MoE + ER + PE | 📦 + 🎯 + 🗺️ | LIBERO | [💻](https://github.com/HarryLui98/DMPEL) | ICRA'24 |
+| IsCiL [Lee et al., 2024] | PEFT + PE | 📦 + 🎯 | Franka Kitchen, Meta-World | [💻](https://github.com/L2dulgi/IsCiL) | NeurIPS'24 |
+| SPECI [Zhou et al., 2025] | PE | 📦 + 🎯 + 🗺️ | LIBERO | [💻](https://github.com/Triumphant-strain/SPECI) | TCDS'25 |
+| PPL [Li et al., 2025] | PEFT + PE | 📦 + 🎯 | LIBERO, MimicGen |  | CVPR'25 |
+| LEGION [Kim et al., 2025] | ME | 📦 + 🎯 | – | [💻](https://github.com/legion/legion) | ICRA'25 |
+| LLWM [Zheng et al., 2025] | GR + W + R | 📦 + 🎯 | DM Control, Meta-World | [💻](https://github.com/WendongZh/continual_visual_control) | ECML'25 |
+| iManip [Chen et al., 2025] | PEFT + ER + PE | 📦 + 🎯 | RLBench |  | ICCV'25 |
+| OA [Liu et al., 2025] | W + R | 📦 + 🎯 | ContinualBench | [💻](https://github.com/sail-sg/ContinualBench) | ICML'25 |
+| M2Distill [Wang et al., 2025] | R | 📦 + 🎯 + 🗺️ | LIBERO |  | ICRA'25 |
+| CKA-RL [Zhang et al., 2025] | PE | 📦 + 🎯 | LIBERO |  | arXiv'25 |
+| OMLA [Sun et al., 2025] | PEFT + ML | 📦 + 🎯 + 🗺️ | LIBERO |  | arXiv'25 |
+| CLARE [Patel et al., 2026] | PE + PEFT | 📦 + 🎯 + 🗺️ | LIBERO | [💻](https://github.com/utiasDSL/clare) | arXiv'26 |
 
 ### Navigation
 
 | Paper | CL Technique | Setting | Benchmark | Code | Venue |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| ReplayMatch [Kumar et al., 2024] | ER | 🗺️ Spatial | DM Control | [💻](https://github.com/replaymatch/replaymatch) | NeurIPS’24 |
-| NavCL [Singh et al., 2025] | R + ER | 🌍 Environment | CARLA |  | ICRA’25 |
-| SPLIT [Wang et al., 2025] | PI | 🌍 Environment + 🗺️ Spatial | Gibson | [💻](https://github.com/split/split) | RSS’25 |
-| ContinualNav [Zhou et al., 2024] | ML + ER | 🗺️ Spatial | Habitat | [💻](https://github.com/continualnav/continualnav) | CoRL’24 |
-| MapMem [Lee et al., 2024] | ME + W | 🌍 Environment | CARLA, Gibson |  | ICRA’24 |
+| ReplayMatch [Kumar et al., 2024] | ER | 🗺️ | DM Control | [💻](https://github.com/replaymatch/replaymatch) | NeurIPS'24 |
+| NavCL [Singh et al., 2025] | R + ER | 🌍 | CARLA |  | ICRA'25 |
+| SPLIT [Wang et al., 2025] | PI | 🌍 + 🗺️ | Gibson | [💻](https://github.com/split/split) | RSS'25 |
+| ContinualNav [Zhou et al., 2024] | ML + ER | 🗺️ | Habitat | [💻](https://github.com/continualnav/continualnav) | CoRL'24 |
+| MapMem [Lee et al., 2024] | ME + W | 🌍 | CARLA, Gibson |  | ICRA'24 |
 
 ### Planning
 
 | Paper | CL Technique | Setting | Benchmark | Code | Venue |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| PlanCL [Garcia et al., 2024] | ML + PE | 🗺️ Spatial | MiniGrid | [💻](https://github.com/plancl/plancl) | NeurIPS’24 |
-| Stratego [Chen et al., 2025] | PI + ER | 🎯 Goal | Meta-World |  | ICML’25 |
-| ContinualPlanner [Wang et al., 2025] | R + ML | 🌍 Environment | Custom | [💻](https://github.com/continualplanner/continualplanner) | ICRA’25 |
+| PlanCL [Garcia et al., 2024] | ML + PE | 🗺️ | MiniGrid | [💻](https://github.com/plancl/plancl) | NeurIPS'24 |
+| Stratego [Chen et al., 2025] | PI + ER | 🎯 | Meta-World |  | ICML'25 |
+| ContinualPlanner [Wang et al., 2025] | R + ML | 🌍 | Custom | [💻](https://github.com/continualplanner/continualplanner) | ICRA'25 |
 
 ---
 
