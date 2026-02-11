@@ -12,7 +12,7 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 ## 📢 News & Updates
 
-- **[2026.02.04]**: Initial collection added!
+- **[2026.02.11]**: Initial collection added!
 
 ---
 
@@ -48,11 +48,11 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 - **ER** — Experience Replay  
 - **R** — Regularization  
 - **PI** — Parameter Isolation  
-- **PEFT** — Parameter-Efficient Fine-Tuning  
+- **PEFT** — PEFT
 - **PE** — Parameter Expansion  
 - **ME** — Memory Expansion  
 - **ML** — Meta-Learning  
-- **MoE** — Mixture of Experts  
+- **MoE** — MoE  
 - **W** — World Model
 
 ---
@@ -63,47 +63,51 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 | Paper | CL Technique | Setting | Benchmark | Code | Venue |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| CRIL [Gao et al., 2021] | GR | 📦 + 🎯 | Meta-World | [💻](https://github.com/HeegerGao/CRIL) | IROS'21 |
-| HyperCRL [Rusu et al., 2021] | PI | 🎯 + 📦 + 🗺️ | Surreal Robotic Suite, DoorGym | [💻](https://github.com/rvl-lab-utoronto/HyperCRL) | ICRA'21 |
-| HN-PPO [Schöpflin et al., 2022] | R + PI | 📦 + 🎯 + 🗺️ | DoorGym | [💻](https://github.com/phschoepf/cs-bachelor-thesis) | NeurIPS WS'22 |
-| SANER [Wang et al., 2023] | ER + PE | 📦 + 🎯 | – | [💻](https://github.com/AGI-Labs/continual_rl) | CoLLAs'23 |
-| CHN [Auddy et al., 2023] | PI | 📦 + 🎯 | LASA | [💻](https://github.com/sayantanauddy/clfd) | RAS'23 |
-| CoTASP [Yang et al., 2023] | PEFT + PI | 📦 + 🎯 | Continual World | [💻](https://github.com/stevenyangyj/CoTASP) | ICML'23 |
-| SDP [Huo et al., 2024] | MoE + PE | 📦 + 🎯 | MimicGen, DexArt, RoboMimic | [💻](https://github.com/AnthonyHuo/SDP) | CoRL'24 |
-| TAIL [Zhang et al., 2024] | PEFT + PE | 📦 + 🎯 + 🗺️ | LIBERO |  | ICLR'24 |
-| CompoNet [Mendez et al., 2024] | PE | 📦 + 🎯 | Continual World | [💻](https://github.com/mikelma/componet) | ICML'24 |
-| LOTUS [Xu et al., 2024] | ER + PE | 📦 + 🎯 + 🗺️ | LIBERO | [💻](https://github.com/UT-Austin-RPL/Lotus) | ICRA'24 |
-| ECD [Zhao et al., 2024] | ER + R | 📦 + 🎯 | Continual World |  | ICRA'24 |
-| DMPEL [Lei et al., 2024] | PEFT + MoE + ER + PE | 📦 + 🎯 + 🗺️ | LIBERO | [💻](https://github.com/HarryLui98/DMPEL) | ICRA'24 |
-| IsCiL [Lee et al., 2024] | PEFT + PE | 📦 + 🎯 | Franka Kitchen, Meta-World | [💻](https://github.com/L2dulgi/IsCiL) | NeurIPS'24 |
-| SPECI [Zhou et al., 2025] | PE | 📦 + 🎯 + 🗺️ | LIBERO | [💻](https://github.com/Triumphant-strain/SPECI) | TCDS'25 |
-| PPL [Li et al., 2025] | PEFT + PE | 📦 + 🎯 | LIBERO, MimicGen |  | CVPR'25 |
-| LEGION [Kim et al., 2025] | ME | 📦 + 🎯 | – | [💻](https://github.com/legion/legion) | ICRA'25 |
-| LLWM [Zheng et al., 2025] | GR + W + R | 📦 + 🎯 | DM Control, Meta-World | [💻](https://github.com/WendongZh/continual_visual_control) | ECML'25 |
-| iManip [Chen et al., 2025] | PEFT + ER + PE | 📦 + 🎯 | RLBench |  | ICCV'25 |
-| OA [Liu et al., 2025] | W + R | 📦 + 🎯 | ContinualBench | [💻](https://github.com/sail-sg/ContinualBench) | ICML'25 |
-| M2Distill [Wang et al., 2025] | R | 📦 + 🎯 + 🗺️ | LIBERO |  | ICRA'25 |
-| CKA-RL [Zhang et al., 2025] | PE | 📦 + 🎯 | LIBERO |  | arXiv'25 |
-| OMLA [Sun et al., 2025] | PEFT + ML | 📦 + 🎯 + 🗺️ | LIBERO |  | arXiv'25 |
-| CLARE [Patel et al., 2026] | PE + PEFT | 📦 + 🎯 + 🗺️ | LIBERO | [💻](https://github.com/utiasDSL/clare) | arXiv'26 |
+| CRIL [Gao et al., 2021] | GR | 📦🎯 | Meta-World | [💻](https://github.com/HeegerGao/CRIL) | IROS’21 |
+| HyperCRL [Huang et al., 2021] | PI | 🎯 / 📦🎯🗺️ | Surreal Robotic Suite, DoorGym | [💻](https://github.com/rvl-lab-utoronto/HyperCRL) | ICRA’21 |
+| HN-PPO [Schöpf et al., 2022] | R + PI | 📦🎯🗺️ | DoorGym | [💻](https://github.com/phschoepf/cs-bachelor-thesis) | NeurIPS-W’22 |
+| SANER [Powers et al., 2023] | ER + PE | 📦🎯 |  | [💻](https://github.com/AGI-Labs/continual_rl) | CoLLAs’23 |
+| CHN [Auddy et al., 2023] | PI | 📦🎯 | LASA | [💻](https://github.com/sayantanauddy/clfd) | RAS’23 |
+| CoTASP [Yang et al., 2023] | PEFT + PI | 📦🎯 | Continual World | [💻](https://github.com/stevenyangyj/CoTASP) | ICML’23 |
+| SDP [Wang et al., 2025b] | MoE + PE | 📦🎯 | Mimicgen, DexArt, Robomimic | [💻](https://github.com/AnthonyHuo/SDP) | CoRL’24 |
+| TAIL [Liu et al., 2024] | PEFT + PE | 📦 / 🎯 / 🗺️ / 📦🎯🗺️ | LIBERO |  | ICLR’24 |
+| CompoNet [Malagon et al., 2024] | PE | 📦🎯 | Continual World | [💻](https://github.com/mikelma/componet) | ICML’24 |
+| LOTUS [Wan et al., 2024] | ER + PE | 📦 / 🎯 / 📦🎯🗺️ | LIBERO | [💻](https://github.com/UT-Austin-RPL/Lotus) | ICRA’24 |
+| ECD [Zhao et al., 2024] | ER + R | 📦🎯 | Continual World |  | ICRA’24 |
+| DMPEL [Lei et al., 2025] | PEFT + MoE + ER + PE | 📦 / 🎯 / 🗺️ / 📦🎯🗺️ | LIBERO | [💻](https://github.com/HarryLui98/DMPEL) | ICRA’24 |
+| IsCiL [Lee et al., 2024] | PEFT + PE | 📦🎯 | Franka Kitchen, Meta-World | [💻](https://github.com/L2dulgi/IsCiL) | NeurIPS’24 |
+| SPECI [Xu and Nie, 2025] | PE | 📦 / 🎯 / 🗺️ / 📦🎯🗺️ | LIBERO | [💻](https://github.com/Triumphant-strain/SPECI) | TCDS’25 |
+| PPL [Yao et al., 2025] | PEFT + PE | 🎯 / 📦🎯 | LIBERO, Mimicgen |  | CVPR’25 |
+| LEGION [Meng et al., 2025] | ME | 📦🎯 |  | [💻](https://github.com/Ghiara/LEGION) | NMI’25 |
+| LLWM [Pan et al., 2025] | GR + W + R | 🎯 / 📦🎯 | Deepmind Control Suite, Meta-World | [💻](https://github.com/WendongZh/continual_visual_control) | ECML’25 |
+| iManip [Zheng et al., 2025] | PEFT + ER + PE | 📦🎯 | RLBench |  | ICCV’25 |
+| OA [Liu et al., 2025] | W + R | 🎯 / 📦🎯 | Continual Bench | [💻](https://github.com/sail-sg/ContinualBench) | ICML’25 |
+| M2Distill [Roy et al., 2025] | R | 📦 / 🎯 / 🗺️ | LIBERO |  | ICRA’25 |
+| CKA-RL [Hu et al., 2025] | PE | 🎯 / 📦🎯 | Continual World | [💻](https://github.com/Fhujinwu/CKA-RL) | NeurIPS’25 |
+| SIL-C [Lee et al., 2025] | PEFT + ME | 🎯 / 📦🗺️ | Franka Kitchen, Meta-World | [💻](https://github.com/L2dulgi/SIL-C) | NeurIPS’25 |
+| Stellar VLA [Wu et al., 2025] | MoE + ER + ME | 🎯 / 📦🎯🗺️ | LIBERO |  | arXiv’25 |
+| TOPIC [Song et al., 2025] | PEFT + PE | 📦🎯 | RLBench |  | arXiv’25 |
+| ExpReS-VLA [Syed et al., 2025] | ER | 📦 / 🎯 / 🗺️ / 📦🎯🗺️ | LIBERO |  | arXiv’25 |
+| OMLA [Zhu et al., 2025] | PEFT + ML | 📦 / 🎯 / 🗺️ | LIBERO |  | arXiv’25 |
+| CLARE [Römer et al., 2026] | PE + PEFT | 📦🎯🗺️ | LIBERO | [💻](https://github.com/utiasDSL/clare) | arXiv’26 |
 
 ### Navigation
 
 | Paper | CL Technique | Setting | Benchmark | Code | Venue |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| ReplayMatch [Kumar et al., 2024] | ER | 🗺️ | DM Control | [💻](https://github.com/replaymatch/replaymatch) | NeurIPS'24 |
-| NavCL [Singh et al., 2025] | R + ER | 🌍 | CARLA |  | ICRA'25 |
-| SPLIT [Wang et al., 2025] | PI | 🌍 + 🗺️ | Gibson | [💻](https://github.com/split/split) | RSS'25 |
-| ContinualNav [Zhou et al., 2024] | ML + ER | 🗺️ | Habitat | [💻](https://github.com/continualnav/continualnav) | CoRL'24 |
-| MapMem [Lee et al., 2024] | ME + W | 🌍 | CARLA, Gibson |  | ICRA'24 |
+| CVLN [Jeong et al., 2024] | ER + R | 🌍 | R2R, RxR |  | arXiv’24 |
+| VLNCL [Li et al., 2025] | ML + ER | 🌍 | R2R |  | IROS’25 |
+| UFA [Yu et al., 2025] | ER + ME | 🌍 | GSA-R2R |  | arXiv’25 |
+| TuKA [Anonymous, 2026a] | PEFT + R + PE | 🌍 | Habitat | [💻](https://github.com/AlldayWalker/AlldayWalker) | ICLR’26 sub. |
+| Uni-Walker [Anonymous, 2026b] | PEFT + R | 🎯 / 🌍 / 🎯🌍 | LENL |  | ICLR’26 sub. |
 
 ### Planning
 
 | Paper | CL Technique | Setting | Benchmark | Code | Venue |
 | :--- | :--- | :--- | :--- | :---: | :---: |
-| PlanCL [Garcia et al., 2024] | ML + PE | 🗺️ | MiniGrid | [💻](https://github.com/plancl/plancl) | NeurIPS'24 |
-| Stratego [Chen et al., 2025] | PI + ER | 🎯 | Meta-World |  | ICML'25 |
-| ContinualPlanner [Wang et al., 2025] | R + ML | 🌍 | Custom | [💻](https://github.com/continualplanner/continualplanner) | ICRA'25 |
+| TAMP [Mendez-Mendez et al., 2023] | MoE + ER | 📦🎯🌍 | BEHAVIOR |  | CoRL’23 |
+| CAMA [Kim et al., 2024] | ER + R | 📦🎯 / 🌍 | CL-ALFRED |  | ICLR’24 |
+| ViReSkill [Kagaya et al., 2025] | ER + ME | 📦 / 🎯 / 🗺️ / 📦🎯🗺️ | LIBERO |  | arXiv’25 |
 
 ---
 
@@ -138,4 +142,4 @@ If you find this collection useful, please consider citing our survey:
 
 ---
 
-**Last Updated**: February 2026 | **Paper Count**: 31
+**Last Updated**: February 2026 | **Paper Count**: 35
