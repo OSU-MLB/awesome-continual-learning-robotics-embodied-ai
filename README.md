@@ -4,7 +4,7 @@
     <img src="assets/robotics_cl.png" width="90%" height="90%">
 </p>
 
-A curated collection of research papers on **Continual Learning (CL) for Robotics and Embodied AI**, organized by application area and searchable by technique, benchmark, and venue.
+A curated collection of research papers on **Continual Learning (CL) for Robotics**, organized by application area and searchable by technique, benchmark, and venue.
 
 📄 **Related Survey**: [A Survey of Continual Learning for Robotics in the Foundation Model Era](https://www.techrxiv.org/doi/full/10.36227/techrxiv.176972367.76460794/v1)
 
