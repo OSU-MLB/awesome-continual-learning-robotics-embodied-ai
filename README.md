@@ -98,7 +98,7 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 | CVLN [Jeong et al., 2024] | ER + R | 🌍 | R2R, RxR |  | arXiv’24 |
 | VLNCL [Li et al., 2025] | ML + ER | 🌍 | R2R |  | IROS’25 |
 | UFA [Yu et al., 2025] | ER + ME | 🌍 | GSA-R2R |  | arXiv’25 |
-| TuKA [Anonymous, 2026a] | PEFT + R + PE | 🌍 | Habitat | [💻](https://github.com/AlldayWalker/AlldayWalker) | ICLR’26 sub. |
+| TuKA [Anonymous, 2026a] | PEFT + R + PE | 🌍 | Habitat |  | ICLR’26 sub. |
 | Uni-Walker [Anonymous, 2026b] | PEFT + R | 🎯 / 🌍 / 🎯🌍 | LENL |  | ICLR’26 sub. |
 
 ### Planning
@@ -106,7 +106,7 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 | Paper | CL Technique | Setting | Benchmark | Code | Venue |
 | :--- | :--- | :--- | :--- | :---: | :---: |
 | TAMP [Mendez-Mendez et al., 2023] | MoE + ER | 📦🎯🌍 | BEHAVIOR |  | CoRL’23 |
-| CAMA [Kim et al., 2024] | ER + R | 📦🎯 / 🌍 | CL-ALFRED |  | ICLR’24 |
+| CAMA [Kim et al., 2024] | ER + R | 📦🎯 / 🌍 | CL-ALFRED | [💻](https://github.com/snumprlab/cl-alfred) | ICLR’24 |
 | ViReSkill [Kagaya et al., 2025] | ER + ME | 📦 / 🎯 / 🗺️ / 📦🎯🗺️ | LIBERO |  | arXiv’25 |
 
 ---
