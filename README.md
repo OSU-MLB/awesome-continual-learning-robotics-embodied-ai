@@ -10,6 +10,23 @@ A curated collection of research papers on **Continual Learning (CL) for Robotic
 
 ---
 
+## 📖 Citation
+
+If you find this collection useful, please consider citing our survey:
+```bibtex
+@article{Mai_2026,
+    title={A Survey of Continual Learning for Robotics in the Foundation Model Era},
+    url={http://dx.doi.org/10.36227/techrxiv.176972367.76460794/v2},
+    DOI={10.36227/techrxiv.176972367.76460794/v2},
+    publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+    author={Mai, Zheda and Jeon, Sooyoung and Huang, Zanming and Yoo, Jinsu and Lee, Colin and Zhang, Gengyu and Wang, Haoxuan and Li, Yifan and Kong, Yu and Yan, Yan and Chao, Wei-Lun},
+    year={2026},
+    month=feb
+}
+```
+
+---
+
 ## 📢 News & Updates
 
 - **[2026.02.11]**: Initial collection added!
@@ -124,23 +141,6 @@ We welcome contributions! To add a paper:
 **Format Example**: 
 ```
 | [Paper Title](paper-link) [Author et al., Year] | Technique(s) | Setting | Benchmark | [💻](code-link) | Venue |
-```
-
----
-
-## 📖 Citation
-
-If you find this collection useful, please consider citing our survey:
-```bibtex
-@article{Mai_2026,
-    title={A Survey of Continual Learning for Robotics in the Foundation Model Era},
-    url={http://dx.doi.org/10.36227/techrxiv.176972367.76460794/v2},
-    DOI={10.36227/techrxiv.176972367.76460794/v2},
-    publisher={Institute of Electrical and Electronics Engineers (IEEE)},
-    author={Mai, Zheda and Jeon, Sooyoung and Huang, Zanming and Yoo, Jinsu and Lee, Colin and Zhang, Gengyu and Wang, Haoxuan and Li, Yifan and Kong, Yu and Yan, Yan and Chao, Wei-Lun},
-    year={2026},
-    month=feb
-}
 ```
 
 ---
