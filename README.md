@@ -132,11 +132,14 @@ We welcome contributions! To add a paper:
 
 If you find this collection useful, please consider citing our survey:
 ```bibtex
-@article{yoursurvey2026,
-  title={A Survey of Continual Learning for Robotics in the Foundation Model Era},
-  author={Your Name et al.},
-  journal={TechRxiv},
-  year={2026}
+@article{Mai_2026,
+    title={A Survey of Continual Learning for Robotics in the Foundation Model Era},
+    url={http://dx.doi.org/10.36227/techrxiv.176972367.76460794/v2},
+    DOI={10.36227/techrxiv.176972367.76460794/v2},
+    publisher={Institute of Electrical and Electronics Engineers (IEEE)},
+    author={Mai, Zheda and Jeon, Sooyoung and Huang, Zanming and Yoo, Jinsu and Lee, Colin and Zhang, Gengyu and Wang, Haoxuan and Li, Yifan and Kong, Yu and Yan, Yan and Chao, Wei-Lun},
+    year={2026},
+    month=feb
 }
 ```
 
